@@ -19,7 +19,6 @@ fi
 if [ -n "$SSH_JUMP_HOST" ]; then
     if [ -z "$SSH_JUMP_PUBLIC_KEY" ]; then
         echo "Input ssh_jump_public_key is required!"
-        exit 1
     fi
 fi
 
